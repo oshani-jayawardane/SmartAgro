@@ -6,3 +6,5 @@ https://github.com/oshani-jayawardane/SmartAgro/blob/main/StepOne/YL69moistureSe
 ### Publish sensor readings to Node-Red dashboard via MQTT (HiveMQ cloud broker)
 https://github.com/oshani-jayawardane/SmartAgro/blob/main/StepOne/YL69moistureSensorMQTT.ino
 ### Publish sensor readings to Node-Red dashboard via MQTT (mosquitto broker installed on raspberry pi)
+how to install mosquitto on raspberry pi: <br />
+https://randomnerdtutorials.com/how-to-install-mosquitto-broker-on-raspberry-pi/
