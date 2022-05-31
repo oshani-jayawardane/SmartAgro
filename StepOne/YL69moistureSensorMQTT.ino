@@ -10,16 +10,16 @@ extern "C" {
   #include "freertos/timers.h"
 }
 
-#define WIFI_SSID "Mervynsons_Technical"
-#define WIFI_PASSWORD "MervynsonsTech@123"
+#define WIFI_SSID "xxxxxx"
+#define WIFI_PASSWORD "xxxxxx"
 
 // Raspberry Pi Mosquitto MQTT Broker
-// #define MQTT_HOST IPAddress(192, 168, 1, XXX)
+ #define MQTT_HOST IPAddress(192, 168, xx, xx)
 
 // For a cloud MQTT broker, type the domain name
-#define MQTT_HOST "broker.mqttdashboard.com"
+// #define MQTT_HOST "broker.mqttdashboard.com"
 
-#define MQTT_PORT 8000
+#define MQTT_PORT 1883
 
 // MQTT Topics
 // const char* MQTT_PUB_MOIS "ESP32/YL69/moisture";
@@ -39,7 +39,7 @@ TimerHandle_t wifiReconnectTimer;
 
 // auxiliary timer variables
 unsigned long previousMillis = 0;   // Stores last time sensor value was published
-const long interval = 2000;        // Interval at which to publish sensor readings
+const long interval = 10000;        // Interval at which to publish sensor readings
 
 
 /*following functions come with the Async Mqtt Client library*/
@@ -118,13 +118,6 @@ So, they are executed asynchronously.*/
 void setup() {
   Serial.begin(115200);
   Serial.println();
-  
-  // Initialize sensor 
-  //  if (!bme.begin(0x76)) {
-  //    Serial.println("Could not find a valid BME280 sensor, check wiring!");
-  //    while (1);
-  //  }
-
 
   /*create timers that will allow both the MQTT broker and Wi-Fi connection to reconnect, in case the connection is lost.*/
   mqttReconnectTimer = xTimerCreate("mqttTimer", pdMS_TO_TICKS(2000), pdFALSE, (void*)0, reinterpret_cast<TimerCallbackFunction_t>(connectToMqtt));
@@ -141,7 +134,7 @@ void setup() {
   mqttClient.onPublish(onMqttPublish);
   mqttClient.setServer(MQTT_HOST, MQTT_PORT);
   // If your broker requires authentication (username and password), set them below
-  mqttClient.setCredentials("SmartAgroTesting", "iot_MQTT@slt123");
+  // mqttClient.setCredentials("username", "password");
   connectToWifi();
 }
 
@@ -159,7 +152,7 @@ void loop() {
     // New sensor readings
     sensorValue = analogRead(sensor_pin);
     // map the sensor reading to a percentage
-    moisturePercentage = map(sensorValue,1400,4095,100,0);
+    moisturePercentage = map(sensorValue,1300,4095,100,0);
     //Serial.println(moisturePercentage);
     
     // Publish an MQTT message on topic "ESP32/YL69/moisture"
@@ -170,7 +163,6 @@ void loop() {
     Serial.printf("Message: %i \n", moisturePercentage);
 
     /*
-
     use the publish() method on the mqttClient object to publish data on a topic. 
     The publish() method accepts the following arguments, in order:
 
