@@ -11,3 +11,5 @@ how to install mosquitto on raspberry pi: <br />
 https://randomnerdtutorials.com/how-to-install-mosquitto-broker-on-raspberry-pi/ <br />
 testing mosquitto on raspberry pi: <br />
 https://randomnerdtutorials.com/testing-mosquitto-broker-and-client-on-raspbbery-pi/#more-31721 <br />
+Node-RED on Raspberry Pi <br />
+https://randomnerdtutorials.com/getting-started-with-node-red-on-raspberry-pi/ <br />
