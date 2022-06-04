@@ -9,7 +9,7 @@ https://github.com/oshani-jayawardane/SmartAgro/blob/main/StepOne/YL69moistureSe
 **using AsynMQTTclient**
 https://github.com/oshani-jayawardane/SmartAgro/blob/main/StepOne/YL69moistureSensorMQTT.ino <br />
 **using PubSubclient**
-https://github.com/oshani-jayawardane/SmartAgro/blob/main/StepOne/YL69moistureSensorMQTT_ex2.ino <br /><br />
+[https://github.com/oshani-jayawardane/SmartAgro/blob/main/StepOne/YL69moistureSensorMQTT_ex2.ino ](https://github.com/oshani-jayawardane/SmartAgro/tree/main/StepOne/pythonClient)<br /><br />
 
 how to install mosquitto on raspberry pi: <br />
 https://randomnerdtutorials.com/how-to-install-mosquitto-broker-on-raspberry-pi/ <br />
