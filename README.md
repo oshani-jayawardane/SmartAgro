@@ -32,6 +32,7 @@ Steps: <br />
     6. After waking up, the ESP connects to Wi-Fi, and the process repeats <br /><br />
 
 **Code - https://github.com/oshani-jayawardane/SmartAgro/blob/main/google_sheets/YL69_sensor_readings.ino** <br />
-**IFTTT google drive link - https://drive.google.com/drive/folders/1FEcY7AJZDSFRBqjVrAc7cJgmkN55QRmr?usp=sharing** <br /><br />
+**IFTTT google drive link - https://drive.google.com/drive/folders/1FEcY7AJZDSFRBqjVrAc7cJgmkN55QRmr?usp=sharing** <br />
+**IFTTT Applet - https://ifttt.com/applets/ZPQpDnhf/edit**<br /><br />
 
 reference: https://randomnerdtutorials.com/esp32-esp8266-publish-sensor-readings-to-google-sheets/ <br />
