@@ -31,7 +31,7 @@ const char* server = "maker.ifttt.com";
 // Time to sleep
 uint64_t uS_TO_S_FACTOR = 1000000;  // Conversion factor for micro seconds to seconds
 // sleep for 30 minutes = 1800 seconds
-uint64_t TIME_TO_SLEEP = 60;
+uint64_t TIME_TO_SLEEP = 1800;
 
 void setup() {
   Serial.begin(115200); 
