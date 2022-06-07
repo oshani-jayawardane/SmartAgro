@@ -32,3 +32,5 @@ Steps: <br />
     6. After waking up, the ESP connects to Wi-Fi, and the process repeats <br /><br />
 
 reference: https://randomnerdtutorials.com/esp32-esp8266-publish-sensor-readings-to-google-sheets/ <br />
+
+**IFTTT google drive link - https://drive.google.com/drive/folders/1FEcY7AJZDSFRBqjVrAc7cJgmkN55QRmr?usp=sharing**
