@@ -24,12 +24,12 @@ https://randomnerdtutorials.com/getting-started-with-node-red-dashboard/ <br />
 ### ESP32 Publish Sensor Readings to Google Sheets
 Integrating directly with Google Sheets requires an HTTPS authentication - use a 3rd party service like IFTTT <br />
 Steps: <br />
-    1. Connect the ESP to the Wi-Fi network <br />
-    2. Obtain sensor readings <br />
-    3. Allow ESP32 to communicate with the IFTTT Webhooks service that publishes the readings to a spreadsheet on Google Sheets saved in a Google Drive’s folder <br />
-    4. After publishing the readings, let the ESP go into deep sleep mode for 30 minutes <br />
-    5. After 30 minutes the ESP wakes up <br />
-    6. After waking up, the ESP connects to Wi-Fi, and the process repeats <br /><br />
+1. Connect the ESP to the Wi-Fi network <br />
+2. Obtain sensor readings <br />
+3. Allow ESP32 to communicate with the IFTTT Webhooks service that publishes the readings to a spreadsheet on Google Sheets saved in a Google Drive’s folder <br />
+4. After publishing the readings, let the ESP go into deep sleep mode for 30 minutes <br />
+5. After 30 minutes the ESP wakes up <br />
+6. After waking up, the ESP connects to Wi-Fi, and the process repeats <br /><br />
 
 **Code - https://github.com/oshani-jayawardane/SmartAgro/blob/main/google_sheets/YL69_sensor_readings.ino** <br />
 **IFTTT google drive link - https://drive.google.com/drive/folders/1FEcY7AJZDSFRBqjVrAc7cJgmkN55QRmr?usp=sharing** <br />
