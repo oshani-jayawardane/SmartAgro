@@ -3,10 +3,11 @@
 
 import paho.mqtt.client as mqtt
 
-MQTT_ADDRESS = '192.168.8.102'
+MQTT_ADDRESS = '192.168.8.103'
 MQTT_USER = 'oshani'
 MQTT_PASSWORD = 'testMQTT1540'
 MQTT_TOPIC = 'ESP32/YL69/moisture'
+MQTT_PORT = 1883
 
 
 def on_connect(client, userdata, flags, rc):
@@ -36,10 +37,10 @@ def main():
     mqtt_client.on_connect = on_connect
     mqtt_client.on_message = on_message
 
-    mqtt_client.connect(MQTT_ADDRESS, 1883)
+    mqtt_client.connect(MQTT_ADDRESS, MQTT_PORT)
     mqtt_client.loop_forever()
 
 
 if __name__ == '__main__':
-    print('MQTT to InfluxDB bridge')
+    print('MQTT started')
     main()
