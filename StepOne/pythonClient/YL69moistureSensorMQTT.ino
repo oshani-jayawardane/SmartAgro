@@ -1,6 +1,8 @@
 /*Debbuging help: PubSubClient is not fully compatible with the ESP32*/
-/* In this code, WiFi connection is disconnected after the MQTT data is send and reconnect after one hour.*/
+/* In this code, WiFi connection is disconnected after the MQTT data is sent and reconnect after one hour.*/
 /*Command to start the Mosquitto console in the Raspberry Pi: - sudo mosquitto*/
+
+/*RPi - acting as both broker and subscriber*/
 
 /*
   Steps:
@@ -13,24 +15,23 @@
 /*
 steps in the publisher setup:
     Establish a WiFi and MQTT connection.
-    The temperature and humidity are stored as strings.
-    The strings are send via MQTT to the broker.
+    The sensor readings are stored as strings.
+    The strings are sent via MQTT to the broker.
 */
 
 #include <PubSubClient.h> // Connect and publish to the MQTT broker
-
-/*Code for the ESP32*/
 #include <WiFi.h> // Enables the ESP32 to connect to the local network (via WiFi)
+
 #define sensor_pin 36 // sensor Pin 
 
 /*WiFi*/
-const char* ssid = "Dialog 4G";              // Your personal network SSID
-const char* wifi_password = "JDJ57TE655L";   // Your personal network password
+const char* ssid = "xxxxxxxx";              // Your personal network SSID
+const char* wifi_password = "xxxxxxxx";   // Your personal network password
 
 /*MQTT*/
 // char *mqttServer = "broker.mqttdashboard.com";
 // const char* mqtt_server = "YOUR_MQTT_BROKER_IP_ADDRESS";
-const char* mqtt_server = "192.168.8.102";              // IP address of the broker
+const char* mqtt_server = "192.168.8.101";              // IP address of the broker
 const char* moisture_topic = "ESP32/YL69/moisture";
 const char* mqtt_username = "oshani";
 const char* mqtt_password = "testMQTT1540";
@@ -62,7 +63,7 @@ void connect_MQTT() {
   /*Debugging - Output the IP Address of the ESP32*/
   Serial.println("");
   Serial.println("WiFi connected");
-  Serial.println("IP address: ");
+  Serial.print("IP address: ");
   Serial.println(WiFi.localIP());
 
   /* Connect to MQTT Broker */
@@ -105,7 +106,7 @@ void loop() {
 
   /*PUBLISH to the MQTT Broker (topic = moisture)*/ 
   if (client.publish(moisture_topic, String(moisturePercentage).c_str())) {
-    Serial.println("Message sent!");
+    Serial.println("Sensor Data Sent!");
   }
   // Again, client.publish will return a boolean value depending on whether it succeded or not.
   // If the message failed to send, we will try again, as the connection may have broken.
