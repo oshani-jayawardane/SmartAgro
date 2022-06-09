@@ -36,3 +36,6 @@ Steps: <br />
 **IFTTT Applet - https://ifttt.com/applets/ZPQpDnhf/edit**<br /><br />
 
 reference: https://randomnerdtutorials.com/esp32-esp8266-publish-sensor-readings-to-google-sheets/ <br />
+
+## Additional Step - Building the complete IoT solution using Amazon Web Services
+https://github.com/oshani-jayawardane/SmartAgro/tree/main/AWS <br />
