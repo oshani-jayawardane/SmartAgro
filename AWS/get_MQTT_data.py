@@ -9,7 +9,7 @@ import paho.mqtt.client as mqtt
 MQTT_ADDRESS = '192.168.8.103'
 MQTT_USER = 'oshani'
 MQTT_PASSWORD = 'testMQTT1540'
-MQTT_TOPIC = 'ESP32/YL69/moisture'
+MQTT_TOPIC = 'field/ESP32/YL69'
 MQTT_PORT = 1883
 
 
