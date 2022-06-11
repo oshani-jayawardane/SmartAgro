@@ -37,5 +37,9 @@ Steps: <br />
 
 reference: https://randomnerdtutorials.com/esp32-esp8266-publish-sensor-readings-to-google-sheets/ <br />
 
+## Step 04 - MQTT over websockets using Javascript client
+
+MQTT websockets javascript docs - https://www.eclipse.org/paho/files/jsdoc/Paho.MQTT.Client.html
+
 ## Additional Step - Building the complete IoT solution using Amazon Web Services
 https://github.com/oshani-jayawardane/SmartAgro/tree/main/AWS <br />
