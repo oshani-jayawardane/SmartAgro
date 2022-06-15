@@ -20,8 +20,17 @@ https://randomnerdtutorials.com/getting-started-with-node-red-on-raspberry-pi/ <
 Node-RED Dashboard on Raspberry Pi <br />
 https://randomnerdtutorials.com/getting-started-with-node-red-dashboard/ <br />
 
-## Step 03 - Testing Databases
-### ESP32 Publish Sensor Readings to Google Sheets
+### Final code to publish ESP32 data to broker
+https://github.com/oshani-jayawardane/SmartAgro/blob/main/StepTwo/ESP32_to_broker.ino <br />
+
+## Step 03 - MQTT over websockets using Javascript client
+MQTT websockets javascript docs - https://www.eclipse.org/paho/files/jsdoc/Paho.MQTT.Client.html <br />
+Javascript Client MQTT - Namespace: https://www.eclipse.org/paho/files/jsdoc/Paho.MQTT.html <br />
+**Access Client Class and Message Class documentations through this** <br />
+
+## Step 04 - Testing Databases
+
+## Additional Step - ESP32 Publish Sensor Readings to Google Sheets
 Integrating directly with Google Sheets requires an HTTPS authentication - use a 3rd party service like IFTTT <br />
 Steps: <br />
 1. Connect the ESP to the Wi-Fi network <br />
@@ -36,10 +45,6 @@ Steps: <br />
 **IFTTT Applet - https://ifttt.com/applets/ZPQpDnhf/edit**<br /><br />
 
 reference: https://randomnerdtutorials.com/esp32-esp8266-publish-sensor-readings-to-google-sheets/ <br />
-
-## Step 04 - MQTT over websockets using Javascript client
-
-MQTT websockets javascript docs - https://www.eclipse.org/paho/files/jsdoc/Paho.MQTT.Client.html
 
 ## Additional Step - Building the complete IoT solution using Amazon Web Services
 https://github.com/oshani-jayawardane/SmartAgro/tree/main/AWS <br />
