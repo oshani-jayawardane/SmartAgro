@@ -20,7 +20,7 @@ Read More - PDF
 
 ## Step 04 - Testing Prototype sensors using ESP32 and Arduino IDE 
 
-Project Folder and Code
+[Project Folder and Code](https://github.com/oshani-jayawardane/SmartAgro/tree/main/Sensor_to_ESP32)
 
 ## Step 05 - Research about IoT Protocols suitable for the project
 
