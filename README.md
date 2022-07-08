@@ -16,7 +16,7 @@ Read More - PDF
 
 ## Step 03 - Research about Sensors (Chosing the best sensors for the project) 
 
-(https://github.com/oshani-jayawardane/SmartAgro/blob/main/Smart-Agro-Sensors-Guide.pdf "Read More - PDF")
+[https://github.com/oshani-jayawardane/SmartAgro/blob/main/Smart-Agro-Sensors-Guide.pdf](Read More - PDF)
 
 ## Step 04 - Testing Prototype sensors using ESP32 and Arduino IDE 
 
