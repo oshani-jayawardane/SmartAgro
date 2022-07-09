@@ -8,7 +8,7 @@ Designing a custom dashboard for remote monitoring and control was decided as an
 
 ## Step 01 - Research about IoT
 
-Read More - PDF
+[Read More - PDF](https://github.com/oshani-jayawardane/SmartAgro/blob/main/IoT-Introduction.pdf)
 
 ## Step 02 - Research about Current Urban Agricultural Approaches
 
