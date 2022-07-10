@@ -24,7 +24,7 @@ Read More - PDF
 
 ## Step 05 - Research about IoT Protocols suitable for the project
 
-[Read More - PDF]() <br/>
+[Read More - PDF](https://github.com/oshani-jayawardane/SmartAgro/blob/main/IoT-Protocols.pdf) <br/>
 [Reference Document](https://github.com/oshani-jayawardane/SmartAgro/blob/main/Protocol%20Comparison.pdf)
 
 ## Step 06 - Research about different MQTT brokers available
