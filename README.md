@@ -31,7 +31,10 @@ Read More - PDF
 
 Read More - PDF
 
-## Step 07 - Publishing Sensor Readings via selected broker to NodeRed Dashboard
+## Step 07 - Publishing Sensor Readings from ESP32 to Selected Broker
+
+[Project Folder and Code](https://github.com/oshani-jayawardane/SmartAgro/tree/main/ESP32_to_broker)
+
+## Step 08 - Publishing Sensor Readings via selected broker to NodeRed Dashboard
 
 Project Folder and Code
-
