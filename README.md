@@ -38,3 +38,7 @@ Read More - PDF
 ## Step 08 - Publishing Sensor Readings via selected broker to NodeRed Dashboard
 
 Project Folder and Code
+
+## Step 09 - Building a custom Dashboard from scratch 
+
+[Project Folder and Code](https://github.com/oshani-jayawardane/SmartAgro/tree/main/Dashboard)
