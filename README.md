@@ -42,3 +42,7 @@ Project Folder and Code
 ## Step 09 - Building a custom Dashboard from scratch 
 
 [Project Folder and Code](https://github.com/oshani-jayawardane/SmartAgro/tree/main/Dashboard)
+
+## Step 10 - Using Javascript MQTT client library to publish MQTT data to web browser over websockets
+
+[MQTT.js - MQTT Client Library Help Docs](https://www.hivemq.com/blog/mqtt-client-library-mqtt-js/)
