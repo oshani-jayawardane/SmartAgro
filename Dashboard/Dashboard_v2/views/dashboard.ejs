@@ -1,0 +1,32 @@
+<%- include("partials/header") -%>
+
+<div class="">
+    <h1>Topic</h1>
+    <h3><%= subTopic %></h3>
+</div>
+
+<br><br>
+
+<div class="">
+    <h6>Field - <%= field %></h6>
+    <h6>Plot - <%= plot %></h6>
+    <h6>Sensor - <%= sensor %></h6>
+</div>
+
+<br>
+<h3><%= connectionMessage %></h3>
+<br>
+
+<div class="">
+    <h1>Moisture level: </h1>
+    <h3>Moisture Level : <%= moistureMessage %></h3>
+</div>
+
+
+
+<!-- MQTT.js CDN -->
+<!-- if CDN is used - Globally initializes an mqtt variable -->
+<!-- <script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script> -->
+<script src="dashboard" type="text/javascript"></script>
+
+<%- include("partials/footer") -%>

@@ -1,0 +1,52 @@
+<%- include("partials/header") -%>
+
+<h1>Welcome Oshani!</h1>
+<h4>Please select your plot to proceed...</h4>
+
+<form class="form-select-group w-100 m-auto topic-select-form" action="/topic" method="post">
+
+  <img class="mb-4" src="images/plant.png" alt="plant vector" width="75">
+
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <label class="input-group-text" for="inputGroupSelect01">Field</label>
+    </div>
+    <select class="form-control" name="field" id="field" onchange="confirmedField.value = field.value">
+      <option selected>Choose...</option>
+      <option>Field 1</option>
+      <option>Field 2</option>
+      <option>Field 3</option>
+    </select>
+  </div>
+
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <label class="input-group-text" for="inputGroupSelect01">Plot</label>
+    </div>
+    <select class="form-control" name="plot" id="plot" onchange="confirmedPlot.value = plot.value">
+      <option selected>Choose...</option>
+      <option>Plot 1</option>
+      <option>Plot 2</option>
+      <option>Plot 3</option>
+    </select>
+  </div>
+
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <label class="input-group-text" for="inputGroupSelect01">Sensor</label>
+    </div>
+    <select class="form-control" name="sensor" id="sensor" onchange="confirmedSensor.value = sensor.value">
+      <option selected>Choose...</option>
+      <option>Soil Humidity</option>
+      <option>Soil Temperature</option>
+      <option>Soil PH</option>
+      <option>Soil NPK</option>
+    </select>
+  </div>
+
+  <input type="submit" value="View Dashboard">
+  <input type="reset" value="Reset">
+
+</form>
+
+<%- include("partials/footer") -%>
