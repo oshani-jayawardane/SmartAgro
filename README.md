@@ -46,3 +46,5 @@ Project Folder and Code
 ## Step 10 - Using Javascript MQTT client library to publish MQTT data to web browser over websockets
 
 [MQTT.js - MQTT Client Library Help Docs](https://www.hivemq.com/blog/mqtt-client-library-mqtt-js/)
+[Dashboard Reference by Steve - display dashboard]()
+[Dashboard Reference by Steve - control dashboard]()
