@@ -1,0 +1,66 @@
+<%- include("partials/header") -%>
+
+<h1>Welcome Oshani!</h1>
+<h4>Please select your plot to proceed...</h4>
+
+<form class="form-select-group w-100 m-auto" action="index.html" method="post">
+
+    <img class="mb-4" src="images/plant.png" alt="plant vector" width="75">
+
+    <!-- <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <label class="input-group-text" for="inputGroupSelect01">Field</label>
+        </div>
+        <select class="form-control">
+            <option selected>Choose...</option>
+            <option>Field 1</option>
+            <option>Field 2</option>
+            <option>Field 3</option>
+        </select>
+    </div>
+
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <label class="input-group-text" for="inputGroupSelect01">Plot</label>
+        </div>
+        <select class="form-control">
+            <option selected>Choose...</option>
+            <option>Plot 1</option>
+            <option>Plot 2</option>
+            <option>Plot 3</option>
+        </select>
+    </div>
+
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <label class="input-group-text" for="inputGroupSelect01">Sensor</label>
+        </div>
+        <select class="form-control">
+            <option selected>Choose...</option>
+            <option>Soil Humidity</option>
+            <option>Soil Temperature</option>
+            <option>Soil PH</option>
+            <option>Soil NPK</option>
+        </select>
+    </div> -->
+
+    <div class="mt-3 mb-3">
+      <label>Field</label>
+      <input class="form-control" type="text" id="field" name="field" oninput="confirmedField.value = field.value">
+      <label>Plot</label>
+      <input class="form-control" type="text" id="plot" name="plot" oninput="confirmedPlot.value = plot.value">
+      <label>Sensor</label>
+      <input class="form-control" type="text" id="sensor" name="sensor" oninput="confirmedSensor.value = sensor.value">
+    </div>
+
+    <input type="submit" value="View Dashboard">
+    <input type="reset" value="Reset">
+
+</form>
+
+<label class="mt-3">Subscribe to topic:</label>
+<input type="text" name="" value="" id="confirmedField" readonly> /
+<input type="text" name="" value="" id="confirmedPlot" readonly> /
+<input type="text" name="" value="" id="confirmedSensor" readonly>
+
+<%- include("partials/footer") -%>
