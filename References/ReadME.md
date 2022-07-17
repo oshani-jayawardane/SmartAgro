@@ -15,4 +15,12 @@ MQTT over websockets - Paho Javascript Client
   2. https://github.com/eclipse/paho.mqtt.javascript
   3. https://www.eclipse.org/paho/files/jsdoc/Paho.MQTT.Client.html 
 
+# EMQX broker
+[MQTT5 Broker](https://www.emqx.com/en/mqtt/public-mqtt5-broker) <br/>
+
+[Dashboard](http://tools.emqx.io/recent_connections) <br/>
+
+[Connect to MQTT broker with Websocket](https://www.emqx.com/en/blog/connect-to-mqtt-broker-with-websocket) <br/>
+
+[How to use MQTT in Node.js](https://www.emqx.com/en/blog/how-to-use-mqtt-in-nodejs) <br/>
 
