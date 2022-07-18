@@ -27,3 +27,14 @@ MQTT over websockets - Paho Javascript Client
 
 [How to use MQTT in Node.js](https://www.emqx.com/en/blog/how-to-use-mqtt-in-nodejs) <br/>
 
+# HiveMQ broker
+[HiveMQ public broker](https://www.hivemq.com/public-mqtt-broker/) <br/>
+
+[Getting started with HiveMQ Cloud Free and WebSockets - video](https://www.youtube.com/watch?v=2LZNsRMx8Wg) <br/>
+
+[WebSocket Support for HiveMQ Cloud Basic](https://www.hivemq.com/blog/websocket-support-for-hivemq-cloud-basic/)<br/>
+
+[HiveMQ - MQTT over Websockets](https://www.hivemq.com/blog/mqtt-over-websockets-with-hivemq/) <br/>
+
+[MQTT Web Applications: How to build your own!](https://www.hivemq.com/blog/build-javascript-mqtt-web-application/)MQTT Web Applications: How to build your own!
+
