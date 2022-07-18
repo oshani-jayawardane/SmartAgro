@@ -36,6 +36,7 @@
 [How to use MQTT in Node.js](https://www.emqx.com/en/blog/how-to-use-mqtt-in-nodejs) <br/>
 
 # HiveMQ broker
+[HiveMQ Documentation](https://www.hivemq.com/docs/hivemq/4.8/user-guide/introduction.html)<br/>
 [HiveMQ public broker](https://www.hivemq.com/public-mqtt-broker/) <br/>
 
 [Getting started with HiveMQ Cloud Free and WebSockets - video](https://www.youtube.com/watch?v=2LZNsRMx8Wg) <br/>
