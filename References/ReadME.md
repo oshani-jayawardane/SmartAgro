@@ -36,5 +36,5 @@ MQTT over websockets - Paho Javascript Client
 
 [HiveMQ - MQTT over Websockets](https://www.hivemq.com/blog/mqtt-over-websockets-with-hivemq/) <br/>
 
-[MQTT Web Applications: How to build your own!](https://www.hivemq.com/blog/build-javascript-mqtt-web-application/)MQTT Web Applications: How to build your own!
+[MQTT Web Applications: How to build your own!](https://www.hivemq.com/blog/build-javascript-mqtt-web-application/)<br/>
 
