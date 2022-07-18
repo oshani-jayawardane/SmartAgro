@@ -29,7 +29,7 @@ Read More - PDF
 
 ## Step 06 - Research about different MQTT brokers available
 
-Read More - PDF
+[See References](https://github.com/oshani-jayawardane/SmartAgro/tree/main/References)
 
 ## Step 07 - Publishing Sensor Readings from ESP32 to Selected Broker
 
