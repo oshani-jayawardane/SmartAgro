@@ -6,17 +6,18 @@ The purpose of this project is to integrate technology with agriculture and crea
 
 Designing a custom dashboard for remote monitoring and control was decided as an initial approach of the project. <br/>
 
-## Step 01 - Research about IoT
 
-[Read More - PDF](https://github.com/oshani-jayawardane/SmartAgro/blob/main/IoT-Introduction.pdf)
+## Step 01 - Research about Current Urban Agricultural Approaches
 
-## Step 02 - Research about Current Urban Agricultural Approaches
+[Read More - PDF](https://github.com/oshani-jayawardane/SmartAgro/blob/main/Contemperory-Farming-Guide.pdf)
 
-Read More - PDF
+## Step 02 - Research about IoT
+
+[Read More - PDF](https://github.com/oshani-jayawardane/SmartAgro/blob/main/02-IoT-Introduction.pdf)
 
 ## Step 03 - Research about Sensors (Chosing the best sensors for the project) 
 
-[Read More - PDF](https://github.com/oshani-jayawardane/SmartAgro/blob/main/Smart-Agro-Sensors-Guide.pdf)
+[Read More - PDF](https://github.com/oshani-jayawardane/SmartAgro/blob/main/03-Smart-Agro-Sensors-Guide.pdf)
 
 ## Step 04 - Testing Prototype sensors using ESP32 and Arduino IDE 
 
@@ -24,8 +25,8 @@ Read More - PDF
 
 ## Step 05 - Research about IoT Protocols suitable for the project
 
-[Read More - PDF](https://github.com/oshani-jayawardane/SmartAgro/blob/main/IoT-Protocols.pdf) <br/>
-[Reference Document](https://github.com/oshani-jayawardane/SmartAgro/blob/main/Protocol%20Comparison.pdf)
+[Read More - PDF](https://github.com/oshani-jayawardane/SmartAgro/blob/main/04-IoT-Protocols.pdf) <br/>
+[Reference Document - Protoco](https://github.com/oshani-jayawardane/SmartAgro/blob/main/Protocol%20Comparison.pdf)
 
 ## Step 06 - Research about different MQTT brokers available
 
