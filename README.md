@@ -28,9 +28,9 @@ Designing a custom dashboard for remote monitoring and control was decided as an
 [Read More - PDF](https://github.com/oshani-jayawardane/SmartAgro/blob/main/04-IoT-Protocols.pdf) <br/>
 [Reference Document - Protoco](https://github.com/oshani-jayawardane/SmartAgro/blob/main/Protocol%20Comparison.pdf)
 
-## Step 06 - Research about different MQTT brokers available
+## Step 06 - Research about MQTT
 
-[See References](https://github.com/oshani-jayawardane/SmartAgro/tree/main/References)
+[See References](https://github.com/oshani-jayawardane/SmartAgro/blob/main/05-MQTT-Protocol.pdf)
 
 ## Step 07 - Publishing Sensor Readings from ESP32 to Selected Broker
 
