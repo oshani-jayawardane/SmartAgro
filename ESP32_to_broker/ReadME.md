@@ -3,7 +3,9 @@
 
 [flowchart xml file](https://github.com/oshani-jayawardane/SmartAgro/blob/main/ESP32_to_broker/ESP32_to_broker.drawio) <br/>
 
-[Code](https://github.com/oshani-jayawardane/SmartAgro/blob/main/ESP32_to_broker/ESP32_to_broker_MQTT.ino) <br/>
+[Code with deep sleep](https://github.com/oshani-jayawardane/SmartAgro/blob/main/ESP32_to_broker/ESP32_to_broker_MQTT.ino) <br/>
+
+[Code without deep sleep](https://github.com/oshani-jayawardane/SmartAgro/blob/main/ESP32_to_broker/ESP32_to_broker_without_deepsleep.ino) <br/>
 
 [HiveMQ Broker Dashboard](http://www.hivemq.com/demos/websocket-client/) <br/>
 
