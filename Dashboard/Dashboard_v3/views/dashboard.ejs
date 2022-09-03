@@ -1,0 +1,45 @@
+<%- include("partials/header") -%>
+
+<h3>Connection status</h3>
+<br>
+<h4><%= connectionMessage %></h4>
+
+<hr>
+<h3>Topic</h3>
+<br>
+<h6>Field: <%= field %></h6>
+<h6>Plot: <%= plot %></h6>
+<h6>Sensor: <%= sensor %></h6>
+<hr>
+
+<h3>Subsribe</h3>
+<br>
+<h4><%= subscriptionMessage %></h4>
+
+<hr>
+
+<h3>Publish</h3>
+<br>
+<h4><%= publishMessage %></h4>
+
+<hr>
+
+<!-- <h3>Packet Message</h3>
+<br>
+<h4><%= packetMessage %></h4> -->
+<h3>
+    Packets Message
+    <br><br>
+    <span id="message"></span>
+  </h3>
+<!-- <script src="script.js" type="text/javascript"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.1/socket.io.js" integrity="sha512-9mpsATI0KClwt+xVZfbcf2lJ8IFBAwsubJ6mI3rtULwyM3fBmQFzj0It4tGqxLOGQwGfJdk/G+fANnxfq9/cew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+    const socket=io();
+    socket.on("mod_forecast",(message)=>{
+      document.querySelector("#message").innerHTML=message;
+    })
+  </script>
+
+<%- include("partials/footer") -%>
